@@ -10,11 +10,17 @@
   </head>
 
   <body>
-    <p>
-      <%= link_to 'Users', :users %>
-      <%= link_to 'Events', :events %>
-    </p>
-    <hr/>
-    <%= yield %>
+    <div class='container'>
+      <ul class='nav'>
+        <li class='nav-item'>
+          <%= link_to 'Users', :users, class: 'nav-link active' %>
+        </li>
+        <li class='nav-item'>
+          <%= link_to 'Events', :events, class: 'nav-link' %>
+        </li>
+      </ul>
+      <hr/>
+      <%= yield %>
+    </div>
   </body>
 </html>

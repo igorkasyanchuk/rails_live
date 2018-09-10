@@ -5,6 +5,7 @@ module RailsLive
     initializer 'rails_live.assets_precompile', :group => :all do |app|
       app.config.assets.precompile += ['rails_live/application.js', 'rails_live/application.css', 'rails_live/*.png', 'rails_live/*.svg', 'rails_live/*.ico']
       app.config.assets.precompile += ['rails_live/bulma.min.css']
+      app.config.assets.precompile += ['rails_live/*.gif']
     end    
   end
 end

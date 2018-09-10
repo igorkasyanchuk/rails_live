@@ -1,0 +1,12 @@
+.logo h1 {
+  margin-bottom: 0 !important;
+}
+
+.logo img {
+  padding-right: 1px;
+  max-height: 2rem;
+}
+
+.logo .tags {
+  padding-left: 3px;
+}

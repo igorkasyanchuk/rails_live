@@ -2,7 +2,7 @@
 
 <h1>Events</h1>
 
-<table>
+<table class='table'>
   <thead>
     <tr>
       <th>Title</th>
@@ -14,7 +14,7 @@
   <tbody>
     <% @events.each do |event| %>
       <tr>
-        <td><%= event.title %></td>
+        <td><%= link_to event.title, event %></td>
         <td><%= event.context %></td>
         <td><%= link_to 'Show', event %></td>
         <td><%= link_to 'Edit', edit_event_path(event) %></td>

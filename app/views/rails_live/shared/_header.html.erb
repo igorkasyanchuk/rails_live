@@ -1,7 +1,7 @@
 <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item logo" href="<%= rails_live.root_url %>">
-      <h1 class='title'>Rails</h1>
+      <h1 class='subtitle'>Rails</h1>
       <span class='tags'>
         <span class='tag is-danger is-small'>LIVE</span>
       </span>
@@ -16,7 +16,14 @@
 
   <div class="navbar-menu" id='navMenu'>
     <div class="navbar-start">
-      <div class='navbar-item'></li>
+      <div class='navbar-item'></div>
+    </div>
+    <div class="navbar-end">
+      <div class='navbar-item'>
+        <%= link_to 'https://github.com/igorkasyanchuk/rails_live', target: '_blank' do %>
+          <%= image_tag 'rails_live/github1.svg', title: 'Documentation' %>
+        <% end %>
+      </div>
     </div>
   </div>
 </nav>

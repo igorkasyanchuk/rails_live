@@ -25,4 +25,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "puma"
   s.add_development_dependency "pry"
   s.add_development_dependency "redis"
+  s.add_development_dependency 'bootstrap', '~> 4.1.3'
 end

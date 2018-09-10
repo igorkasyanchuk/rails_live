@@ -1,5 +1,19 @@
-<p class="waiting-for-updates">waiting for updates ...</p>
+<p class="waiting-for-updates">
+  waiting for updates ...
+  <br/>
+  <%= image_tag 'rails_live/loading.gif' %>
+</p>
 
-<nav class="panel">
-  <div id="messages"></div>
-</nav>
+<table class="table full-screen-columns is-hidden is-narrow" id="messages">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Message</th>
+      <th>User</th>
+      <th>Category</th>
+      <th>Tags</th>
+    </tr>
+  </thead>
+  <tbody id="messages-body">
+  </tbody>
+</table>

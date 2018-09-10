@@ -1,21 +1,9 @@
 /*
- *= require_tree .
+ *= require rails_live/bulma.min.css
+ *= require rails_live/animate.css
+ *= require rails_live/layout.css
+ *= require rails_live/header.css
+ *= require rails_live/messages.css
  *= require_self
 */
 
-.full-screen-columns {
-  width: 100%;
-}
-
-.logo h1 {
-  margin-bottom: 0 !important;
-}
-
-.logo img {
-  padding-right: 1px;
-  max-height: 2rem;
-}
-
-.logo .tags {
-  padding-left: 3px;
-}
