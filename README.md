@@ -1,6 +1,8 @@
 # Rails Live Stream
 
-Watch application activities in **real-time** using them gem. Live stream of all servers events which you want to monitor.
+Watch application activities in **real-time** using them gem. Live stream for all events which you want to monitor.
+
+Use tags, categories, custom message and even user. Get better picture of what happening on server.
 
 ## Demo
 
