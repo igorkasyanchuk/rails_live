@@ -20,7 +20,6 @@ Gem::Specification.new do |s|
   s.add_dependency "coffee-rails"
   s.add_dependency "redis"
   s.add_dependency "jquery-rails"
-  s.add_dependency "bulma-rails"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "puma"

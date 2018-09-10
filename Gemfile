@@ -18,4 +18,3 @@ gem 'puma'
 gem 'pry'
 gem 'coffee-rails'
 gem 'jquery-rails'
-gem "bulma-rails", "~> 0.7.1"
