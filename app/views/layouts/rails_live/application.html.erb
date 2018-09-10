@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rails Live updates</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag    "rails_live/application", media: "all" %>
+  <%= javascript_include_tag "rails_live/application" %>
+  <link rel="shortcut icon" type="image/png" href="<%= asset_path 'rails_live/favicon.ico' %>"/>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="container is-fluid">
+      <div class="columns">
+        <div class="column is-12">
+          <%= render '/rails_live/shared/header' %>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-12">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
