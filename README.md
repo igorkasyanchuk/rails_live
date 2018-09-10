@@ -1,4 +1,4 @@
-# Rails Live Stream
+# Rails Live
 
 Watch application activities in **real-time** using them gem. Live stream for all events which you want to monitor.
 
