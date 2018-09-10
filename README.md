@@ -9,7 +9,7 @@ Use tags, categories, custom message and even user. Get better picture of what h
 Link to video: https://www.youtube.com/watch?v=1PhyEgU7Pao
 
 [<img src="https://raw.githubusercontent.com/igorkasyanchuk/rails_live/master/docs/screenshot.png"
-/>](https://github.com/igorkasyanchuk/rails_live)
+/>](https://www.youtube.com/watch?v=1PhyEgU7Pao)
 
 ## Usage
 
