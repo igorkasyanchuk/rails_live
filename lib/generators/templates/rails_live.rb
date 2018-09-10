@@ -10,7 +10,7 @@ if Object.const_defined?('RailsLive')
     # config.http_basic_authentication_enabled = false
 
     # # Enable http basic authentication
-    # config.http_basic_authentication_user_name = 'rails_db'
+    # config.http_basic_authentication_user_name = 'rails_live'
 
     # # Enable http basic authentication
     # config.http_basic_authentication_password = 'passw0))rd'

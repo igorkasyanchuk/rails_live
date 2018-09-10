@@ -2,7 +2,7 @@ Description:
     Generate configuration file.
 
 Example:
-    rails generate rails_db initializer
+    rails generate rails_live initializer
 
     This will create:
-        config/rails_db.rb
+        config/rails_live.rb
