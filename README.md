@@ -1,8 +1,13 @@
 # Rails Live Stream
 
-With this gem you can monitor real-time events on server using websockets.
+Watch application activities in **real-time** using them gem. Live stream of all servers events which you want to monitor.
 
-If doesn't store all events in DB.
+## Demo
+
+Link to video: https://www.youtube.com/watch?v=1PhyEgU7Pao
+
+[<img src="https://raw.githubusercontent.com/igorkasyanchuk/rails_live/master/docs/screenshot.png"
+/>](https://github.com/igorkasyanchuk/rails_live)
 
 ## Usage
 
@@ -58,6 +63,8 @@ or anywhere from code
     })
 ```
 
+Note: it doesn't store all events in DB. It just broadcasting them to dashboard.
+
 ## Installation
 
 ```ruby
@@ -68,6 +75,32 @@ And then execute:
 ```bash
 $ bundle
 ```
+
+## Customization
+
+If you want to customize gem (create initializer) run in console:
+
+    rails g rails_live initializer
+
+If will create file config/initializers/rails_live.rb.
+
+### Options
+*   **enabled** - enable or disable gem (default: true).
+*   **automatic_routes_mount** - automatically mount engine routes in your app (default: true).
+*   **http_basic_authentication_enabled** - Enable HTTP_BASIC authentication (default: false).
+*   **http_basic_authentication_user_name** - HTTP_BASIC authentication user name.
+*   **http_basic_authentication_password** - HTTP_BASIC authentication password.
+
+If you want to add routes manually (or customize the mounted location) you need to first turn off `automatic_routes_mount` and then add to your `routes.rb`
+
+```ruby
+  mount RailsLive::Engine => '/rails/live', :as => 'rails_live'
+```
+
+### Tags
+
+[<img src="https://raw.githubusercontent.com/igorkasyanchuk/rails_live/master/docs/tags.png"
+/>](https://github.com/igorkasyanchuk/rails_live)
 
 ## Contributing
 
