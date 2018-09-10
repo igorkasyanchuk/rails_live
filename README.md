@@ -4,6 +4,8 @@ Watch application activities in **real-time** using them gem. Live stream for al
 
 Use tags, categories, custom message and even user. Get better picture of what happening on server.
 
+Every event will be prepender in the list with all the details.
+
 ## Demo
 
 Link to video: https://www.youtube.com/watch?v=1PhyEgU7Pao
